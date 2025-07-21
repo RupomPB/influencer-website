@@ -125,10 +125,8 @@ a{
 
 .sponsor-items{
     display: flex;
-    background-color: rgb(124, 71, 71);
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     gap: 60px;
     max-width: 1100px;
     margin: 0 auto;
@@ -238,6 +236,35 @@ a{
     margin-top: 20px;
 }
 
+/* footer css */
+
+.footer-container{
+    text-align: center;
+    background-color: #0A0826;
+    padding: 50px;
+    
+}
+.footer-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer-description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(217, 219, 225, 1);
+
+}
+.icon-container{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5rem;
+
+}
+
 /* media quary css */
 
 @media screen and (max-width:576px) {
@@ -278,6 +305,10 @@ a{
         flex-direction: column-reverse;
         text-align: center;
 
+    }
+
+    .footer-container{
+        margin: 0 auto;
     }
 
 
