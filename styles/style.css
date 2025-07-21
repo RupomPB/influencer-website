@@ -165,7 +165,7 @@ a{
     max-width: 1200px;
     justify-items: center;
     align-items: center;
-    margin-bottom: 100px;
+    
     
 }
 
@@ -199,6 +199,45 @@ a{
     margin: 5px;
 
 }
+
+.see-more{
+    text-align: end;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+    color: #E02C6D;
+    font-weight: bold;
+    
+}
+
+/* feature section css */
+
+.feature-container{
+    display: flex;
+    gap: 96px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-title{
+    font-size: 2.2rem;
+    margin: 10px;
+    font-weight: bold;
+    color: rgba(10, 8, 38, 1);
+
+}
+.feature-description{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 16px 0;
+}
+.feature-btn{
+    margin-top: 20px;
+}
+
 /* media quary css */
 
 @media screen and (max-width:576px) {
@@ -233,6 +272,12 @@ a{
     .card-container{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
+    }
+
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
+
     }
 
 
